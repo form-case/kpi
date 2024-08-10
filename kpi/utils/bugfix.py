@@ -12,7 +12,7 @@ def repair_file_column_content_and_save(asset, include_versions=True) -> bool:
     """
     Given an `Asset`, repair any damage caused to its `content` and the
     `version_content` of all related `AssetVersion`s by
-    kobotoolbox/formpack#322, which wrongly transformed the `file` column into
+    form-case/formpack#322, which wrongly transformed the `file` column into
     `media::file` and included it in the list of translated columns.
 
     Writes only to the `content` (or `version_content`) field for each modified

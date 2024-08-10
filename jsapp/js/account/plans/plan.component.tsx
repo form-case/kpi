@@ -263,7 +263,7 @@ export default function Plan(props: PlanProps) {
       if (isSubscriptionUpdated) {
         notify.success(
           t(
-            'Thanks for your upgrade! We appreciate your continued support. Reach out to billing@kobotoolbox.org if you have any questions about your plan.'
+            'Thanks for your upgrade! We appreciate your continued support. Reach out to billing@form-case.org if you have any questions about your plan.'
           ),
           {
             duration: subscriptionUpgradeMessageDuration,
@@ -523,7 +523,7 @@ export default function Plan(props: PlanProps) {
                           'For organizations with higher volume and advanced data collection needs, get in touch to learn more about our '
                         )}
                         <a
-                          href='https://www.kobotoolbox.org/contact/'
+                          href='https://www.form-case.org/contact/'
                           target='_blanks'
                           className={styles.enterpriseLink}
                         >
@@ -537,7 +537,7 @@ export default function Plan(props: PlanProps) {
                         )}
                         <br />
                         <a
-                          href='https://www.kobotoolbox.org/contact/'
+                          href='https://www.form-case.org/contact/'
                           target='_blanks'
                           className={styles.enterpriseLink}
                         >

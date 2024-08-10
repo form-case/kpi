@@ -184,7 +184,7 @@ export function formatRelativeTime(timeStr: string, localize = true): string {
 }
 
 // TODO: Test if works for both form and library routes, if not make it more general
-// See: https://github.com/kobotoolbox/kpi/issues/3909
+// See: https://github.com/form-case/kpi/issues/3909
 export function getAssetUIDFromUrl(assetUrl: string): string | null {
   const matched = assetUrl.match(/.*\/([^/]+)\//);
   if (matched !== null) {
@@ -421,7 +421,7 @@ export const truncateNumber = (decimal: number, decimalPlaces = 2) =>
  * quick filename generation
  *
  * Inspired by the way backend handles generating autonames for translations:
- * https://github.com/kobotoolbox/kpi/blob/27220c2e65b47a7f150c5bef64db97226987f8fc/kpi/utils/autoname.py#L132-L138
+ * https://github.com/form-case/kpi/blob/27220c2e65b47a7f150c5bef64db97226987f8fc/kpi/utils/autoname.py#L132-L138
  */
 export function generateAutoname(
   str: string,

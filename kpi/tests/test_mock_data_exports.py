@@ -1180,7 +1180,7 @@ class MockDataExports(MockDataExportsBase):
             '"q";"_id";"_uuid";"_submission_time";"_validation_status";"_notes";"_status";"_submitted_by";"__version__";"_tags";"_index"',
             f'"123";"1";"";"";"";"";"";"";"{asset.latest_deployed_version.uid}";"";"1"',
         ]
-        # fails with `KeyError` prior to fix for kobotoolbox/formpack#219
+        # fails with `KeyError` prior to fix for form-case/formpack#219
         self.run_csv_export_test(expected_lines, asset=asset)
 
     def test_anotheruser_can_export_when_submissions_publicly_shared(self):

@@ -53,7 +53,7 @@ class ObjectPermissionSerializer(serializers.ModelSerializer):
         asset = validated_data['content_object']
         user = validated_data['user']
         perm = validated_data['permission'].codename
-        # TODO: Remove after kobotoolbox/kobocat#642
+        # TODO: Remove after form-case/kobocat#642
         # I'm looking forward to the merge conflict this creates, aren't you?
         if getattr(asset, 'has_deployment', False):
             asset.deployment.remove_from_kc_only_flag(

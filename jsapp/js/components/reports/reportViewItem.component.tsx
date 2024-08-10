@@ -144,7 +144,7 @@ class ReportViewItem extends React.Component<ReportViewItemProps> {
         const choiceLabel = val[2] || val[0] || '';
         let itemPerc = [];
         // TODO: Make the backend behave consistently?
-        // https://github.com/kobotoolbox/kpi/issues/2562
+        // https://github.com/form-case/kpi/issues/2562
         if (Array.isArray(val[1].percentage)) {
           itemPerc = val[1].percentage;
         }

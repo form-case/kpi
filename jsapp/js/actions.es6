@@ -197,17 +197,17 @@ actions.resources.deployAsset.failed.listen(function(data, redeployment){
       msg = t('please check your connection and try again.');
     }
     failure_message = `
-      <p>${replaceSupportEmail(t('if this problem persists, contact help@kobotoolbox.org'))}</p>
+      <p>${replaceSupportEmail(t('if this problem persists, contact help@form-case.org'))}</p>
       <p>${msg}</p>
     `;
   } else if(!!data.responseJSON.xform_id_string){
     // TODO: now that the id_string is automatically generated, this failure
     // mode probably doesn't need special handling
-    // see: https://github.com/kobotoolbox/kpi/issues/3902
+    // see: https://github.com/form-case/kpi/issues/3902
     failure_message = `
       <p>${t('your form id was not valid:')}</p>
       <p><pre>${data.responseJSON.xform_id_string}</pre></p>
-      <p>${replaceSupportEmail(t('if this problem persists, contact help@kobotoolbox.org'))}</p>
+      <p>${replaceSupportEmail(t('if this problem persists, contact help@form-case.org'))}</p>
     `;
   } else if(!!data.responseJSON.detail) {
     failure_message = `

@@ -179,22 +179,22 @@ CONSTANCE_CONFIG = {
     'TERMS_OF_SERVICE_URL': ('', 'URL for terms of service document'),
     'PRIVACY_POLICY_URL': ('', 'URL for privacy policy'),
     'SOURCE_CODE_URL': (
-        'https://github.com/kobotoolbox/',
+        'https://github.com/form-case/',
         'URL of source code repository. When empty, a link will not be shown '
         'in the user interface',
     ),
     'SUPPORT_EMAIL': (
-        env.str('KOBO_SUPPORT_EMAIL', env.str('DEFAULT_FROM_EMAIL', 'help@kobotoolbox.org')),
+        env.str('KOBO_SUPPORT_EMAIL', env.str('DEFAULT_FROM_EMAIL', 'help@form-case.org')),
         'Email address for users to contact, e.g. when they encounter '
         'unhandled errors in the application',
     ),
     'SUPPORT_URL': (
-        env.str('KOBO_SUPPORT_URL', 'https://support.kobotoolbox.org/'),
+        env.str('KOBO_SUPPORT_URL', 'https://support.form-case.org/'),
         'URL for "KoboToolbox Help Center"',
     ),
     'COMMUNITY_URL': (
         env.str(
-            'KOBO_COMMUNITY_URL', 'https://community.kobotoolbox.org/'
+            'KOBO_COMMUNITY_URL', 'https://community.form-case.org/'
         ),
         'URL for "KoboToolbox Community Forum"',
     ),
@@ -956,7 +956,7 @@ else:
     DEFAULT_DEPLOYMENT_BACKEND = 'mock'
 
 
-''' Stripe configuration intended for kf.kobotoolbox.org only, tracks usage limit exceptions '''
+''' Stripe configuration intended for kf.form-case.org only, tracks usage limit exceptions '''
 STRIPE_ENABLED = env.bool("STRIPE_ENABLED", False)
 
 def dj_stripe_request_callback_method():
@@ -1379,7 +1379,7 @@ permission assignment that would've been done by KoBoCAT's user post_save
 signal handler. Here we record the content types of the models listed in KC's
 set_api_permissions_for_user(). Verify that this list still matches that
 function if you experience permission-related problems. See
-https://github.com/kobotoolbox/kobocat/blob/master/onadata/libs/utils/user_auth.py.
+https://github.com/form-case/kobocat/blob/master/onadata/libs/utils/user_auth.py.
 '''
 KOBOCAT_DEFAULT_PERMISSION_CONTENT_TYPES = [
     # Each tuple must be (app_label, model_name)

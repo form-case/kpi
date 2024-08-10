@@ -603,7 +603,7 @@ class SubmissionApiTests(BaseSubmissionTestCase):
         anotheruser has view access on someuser's project.
         Test if anotheruser can see someuser's data
 
-        See https://github.com/kobotoolbox/kpi/issues/2698
+        See https://github.com/form-case/kpi/issues/2698
         """
 
         anonymous_user = get_anonymous_user()

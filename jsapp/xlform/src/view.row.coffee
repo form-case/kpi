@@ -23,7 +23,7 @@ LOCKING_RESTRICTIONS = require('js/components/locking/lockingConstants').LOCKING
 LOCKING_UI_CLASSNAMES = require('js/components/locking/lockingConstants').LOCKING_UI_CLASSNAMES
 $icons = require('./view.icons')
 # TODO: port this and others from alertify.dialog to new modal system
-# https://github.com/kobotoolbox/kpi/issues/3977
+# https://github.com/form-case/kpi/issues/3977
 multiConfirm = require('js/alertify').multiConfirm
 alertify = require('alertifyjs')
 constants = require('js/constants')

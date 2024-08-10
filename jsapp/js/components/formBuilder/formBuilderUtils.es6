@@ -17,7 +17,7 @@ export function getFormBuilderAssetType(assetType, desiredAssetType) {
 }
 
 export function surveyToValidJson(survey) {
-  // HACK: This is done as a fix for https://github.com/kobotoolbox/kpi/pull/735
+  // HACK: This is done as a fix for https://github.com/form-case/kpi/pull/735
   // I'm not entirely sure what this is about but definitely BAD CODE™!
   //
   // skip logic references only preserved after initial call
@@ -217,7 +217,7 @@ export function koboMatrixParser(params) {
         }
       }
       // TODO: handle corrupt matrix data
-      // See: https://github.com/kobotoolbox/kpi/issues/3915
+      // See: https://github.com/form-case/kpi/issues/3915
     }
   }
 

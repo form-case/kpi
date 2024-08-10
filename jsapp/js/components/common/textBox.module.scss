@@ -6,7 +6,7 @@
 // Note: this needs to override a lot of styles defined in `_kobo.bem.ui.scss`,
 // for the context of `.form-modal__item`. Plus we fight the specificity battle
 // because of too general styles of Form Builder.
-// See: https://github.com/kobotoolbox/kpi/issues/3914
+// See: https://github.com/form-case/kpi/issues/3914
 
 $input-color: colors.$kobo-gray-24;
 $wrapper-border-radius: sizes.$x6;

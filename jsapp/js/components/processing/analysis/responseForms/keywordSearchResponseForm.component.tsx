@@ -15,7 +15,7 @@ interface KeywordSearchResponseFormProps {
 }
 
 /**
- * TBD, see https://github.com/kobotoolbox/kpi/issues/4594
+ * TBD, see https://github.com/form-case/kpi/issues/4594
  */
 export default function KeywordSearchResponseForm(
   props: KeywordSearchResponseFormProps

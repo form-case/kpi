@@ -104,7 +104,7 @@ class AssetViewSet(
     >           }
     >       }
 
-    Look at [README](https://github.com/kobotoolbox/kpi#searching-assets)
+    Look at [README](https://github.com/form-case/kpi#searching-assets)
     for more details.
 
     Results can be sorted with `ordering` parameter.
@@ -405,7 +405,7 @@ class AssetViewSet(
 
             self.check_object_permissions(self.request, asset)
 
-            # Cope with kobotoolbox/formpack#322, which wrote invalid content
+            # Cope with form-case/formpack#322, which wrote invalid content
             # into the database. For performance, consider only the current
             # content, not previous versions. Previous versions are handled in
             # `kobo.apps.reports.report_data.build_formpack()`
@@ -664,7 +664,7 @@ class AssetViewSet(
             # self.__filtered_queryset is set in the `list()` method that
             # DRF automatically calls and is overridden below. This is
             # to prevent double calls to `filter_queryset()` as described in
-            # the issue here: https://github.com/kobotoolbox/kpi/issues/2576
+            # the issue here: https://github.com/form-case/kpi/issues/2576
             queryset = self.__filtered_queryset
 
             # 1) Retrieve all asset IDs of current list

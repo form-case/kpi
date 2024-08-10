@@ -100,7 +100,7 @@ export class TranslationTable extends React.Component {
           // TODO: Figure out what to do for the case of adding a new language
           // when there are locked labels. These labels should be unlocked
           // for the newly added languages and their translations only.
-          // See: https://github.com/kobotoolbox/kpi/issues/3920
+          // See: https://github.com/form-case/kpi/issues/3920
           return (
             <div
               className={

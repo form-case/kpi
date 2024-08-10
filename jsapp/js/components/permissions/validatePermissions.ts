@@ -5,7 +5,7 @@ import type {PermissionResponse} from 'js/dataInterface';
 import union from 'lodash.union';
 
 export const INVALID_PERMS_ERROR = t(
-  'The stored permissions are invalid. Please assign them again. If this problem persists, contact help@kobotoolbox.org'
+  'The stored permissions are invalid. Please assign them again. If this problem persists, contact help@form-case.org'
 );
 
 /**

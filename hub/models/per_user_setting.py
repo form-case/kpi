@@ -12,7 +12,7 @@ class PerUserSetting(models.Model):
     """
     user_queries = models.JSONField(
         help_text='A JSON representation of a *list* of Django queries, '
-                  'e.g. `[{"email__iendswith": "@kobotoolbox.org"}, '
+                  'e.g. `[{"email__iendswith": "@form-case.org"}, '
                   '{"email__iendswith": "@kbtdev.org"}]`. '
                   'A matching user is one who would be returned by ANY of '
                   'the queries in the list.'

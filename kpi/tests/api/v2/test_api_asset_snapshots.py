@@ -79,7 +79,7 @@ class TestAssetSnapshotList(AssetSnapshotBase):
     def test_create_two_asset_snapshots_from_source_and_asset(self):
         """
         Make sure it's possible to preview unsaved changes to an asset multiple
-        times; see https://github.com/kobotoolbox/kpi/issues/2058
+        times; see https://github.com/form-case/kpi/issues/2058
         """
         self.client.login(username='someuser', password='someuser')
         snapshot_list_url = reverse(self._get_endpoint('assetsnapshot-list'))

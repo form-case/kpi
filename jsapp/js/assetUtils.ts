@@ -156,7 +156,7 @@ export function getCountryDisplayString(asset: AssetResponse | ProjectViewAsset)
     }
 
     // TODO: improve for RTL?
-    // See: https://github.com/kobotoolbox/kpi/issues/3903
+    // See: https://github.com/form-case/kpi/issues/3903
     return countries.join(', ');
   } else {
     return '-';
@@ -489,7 +489,7 @@ export function renderQuestionTypeIcon(
   if (rowTypeIcon) {
     // TODO: use Icon component here, but please check out all usages first.
     // Also make sure the icon size is right.
-    // It should be done while working on https://github.com/kobotoolbox/kpi/issues/3571
+    // It should be done while working on https://github.com/form-case/kpi/issues/3571
     return React.createElement(
       'i',
       {

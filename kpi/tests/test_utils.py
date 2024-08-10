@@ -266,7 +266,7 @@ class UtilsTestCase(TestCase):
         """
         As long as at least *one* term is long enough, or one term explicitly
         specifies a field, a search should succeed. See
-        https://github.com/kobotoolbox/kpi/issues/3483
+        https://github.com/form-case/kpi/issues/3483
         """
         # should succeed due to long-enough terms
         parse('my great project', ['some_field'])

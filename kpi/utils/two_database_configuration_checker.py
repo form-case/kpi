@@ -21,7 +21,7 @@ class TwoDatabaseConfigurationChecker:
     together, as opposed to simply copied from the old database to the new one.
     """
 
-    HELP_PAGE = 'https://community.kobotoolbox.org/t/upgrading-to-separate-databases-for-kpi-and-kobocat/7202'
+    HELP_PAGE = 'https://community.form-case.org/t/upgrading-to-separate-databases-for-kpi-and-kobocat/7202'
     GUIDANCE_TEMPLATE = 'For assistance, please visit {HELP_PAGE}.'
 
     def __init__(self):

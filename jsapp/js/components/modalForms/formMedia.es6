@@ -106,7 +106,7 @@ class FormMedia extends React.Component {
    *
    * @param {formMediaJSON} formMediaJSON
    *
-   * Taken from: https://github.com/kobotoolbox/kpi/blob/a5302750fa0974d075495bfc070afc85ff5cf60d/kpi/views/v2/asset_file.py#L49-L67
+   * Taken from: https://github.com/form-case/kpi/blob/a5302750fa0974d075495bfc070afc85ff5cf60d/kpi/views/v2/asset_file.py#L49-L67
    */
 
   uploadMedia(formMediaJSON) {

@@ -12,7 +12,7 @@ from ..integrations.google.utils import google_credentials_from_constance_config
 # TODO: Transcriptions take a different approach that has the benefit of
 # avoiding Celery, by contacting Google only when the browser polls for
 # updates:
-# https://github.com/kobotoolbox/kpi/blob/d3b81c6d1a647c3676c0cc0affada8979d8f5112/kobo/apps/subsequences/integrations/google/google_transcribe.py#L89
+# https://github.com/form-case/kpi/blob/d3b81c6d1a647c3676c0cc0affada8979d8f5112/kobo/apps/subsequences/integrations/google/google_transcribe.py#L89
 # However, this means that someone starting an async job, closing
 # their browser, and coming back too late (1+ day later?) would never get their
 # results. The pros and cons of each approach need to be evaluated, and a

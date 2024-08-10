@@ -111,7 +111,7 @@ class EncryptForm extends React.Component {
   }
 
   openEncryptionHelp() {
-    window.open('https://support.kobotoolbox.org/encrypting_forms.html', '_blank');
+    window.open('https://support.form-case.org/encrypting_forms.html', '_blank');
   }
 
   render () {

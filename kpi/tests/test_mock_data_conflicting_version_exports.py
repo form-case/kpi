@@ -19,7 +19,7 @@ class ConflictingVersionsMockDataExports(TestCase):
     `conflicting_versions` fixture, make sure that exports pick the NEWEST of
     the versions given by those fields for each submission. Contrast this to
     old behavior where only `__version__` was considered. See
-    https://github.com/kobotoolbox/kpi/issues/1500
+    https://github.com/form-case/kpi/issues/1500
     """
     fixtures = ['test_data', 'conflicting_versions']
 

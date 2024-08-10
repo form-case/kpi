@@ -39,7 +39,7 @@ export default function BulkDeletePrompt(props: BulkDeletePromptProps) {
 
         // Temporarily we do this hacky thing to update the sidebar list of
         // projects. After the Bookmarked Projects feature is done (see the
-        // https://github.com/kobotoolbox/kpi/issues/4220 for history of
+        // https://github.com/form-case/kpi/issues/4220 for history of
         // discussion and more details) we would remove this code.
         searches.forceRefreshFormsList();
 

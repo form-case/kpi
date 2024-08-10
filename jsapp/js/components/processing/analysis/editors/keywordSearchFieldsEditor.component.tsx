@@ -57,7 +57,7 @@ export default function KeywordSearchFieldsEditor(
         </label>
 
         {/*
-          While doing https://github.com/kobotoolbox/kpi/issues/4594 ensure that
+          While doing https://github.com/form-case/kpi/issues/4594 ensure that
           a support article is written and a link updated here <3
         */}
         <a className={styles.helpLink} href={'#TODO'}>

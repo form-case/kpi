@@ -9,7 +9,7 @@
  * TODO: think about moving out of mixins, as they are deprecated in new React
  * versions and considered harmful (see
  * https://reactjs.org/blog/2016/07/13/mixins-considered-harmful.html).
- * See: https://github.com/kobotoolbox/kpi/issues/3907
+ * See: https://github.com/form-case/kpi/issues/3907
  */
 
 import React from 'react';
@@ -380,7 +380,7 @@ const mixins: MixinsObject = {
         (data: ImportResponse) => {
           // TODO get rid of this barbaric method of waiting a magic number of seconds
           // to check if import was done - possibly while doing
-          // https://github.com/kobotoolbox/kpi/issues/476
+          // https://github.com/form-case/kpi/issues/476
           window.setTimeout(() => {
             dataInterface
               .getImportDetails({

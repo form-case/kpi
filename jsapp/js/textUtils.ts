@@ -1,6 +1,6 @@
 import envStore from 'js/envStore';
 
-const ORIGINAL_SUPPORT_EMAIL = 'help@kobotoolbox.org';
+const ORIGINAL_SUPPORT_EMAIL = 'help@form-case.org';
 
 /**
  * Replaces the hardcoded email string (coming from transifex translation) with

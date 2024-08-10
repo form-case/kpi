@@ -33,7 +33,7 @@ class ExportTaskViewSet(
     >
     >       curl -X GET https://[kpi]/api/v2/assets/aSAvYreNzVEkrWg5Gdcvg/exports/
 
-    > The list can be filtered with the [query parser](https://github.com/kobotoolbox/kpi#searching)
+    > The list can be filtered with the [query parser](https://github.com/form-case/kpi#searching)
     > Query searches within `uid` by default if no field is provided in `q`.
 
     >       curl -X GET https://[kpi]/api/v2/assets/aSAvYreNzVEkrWg5Gdcvg/exports/?q=zVEkrWg5Gd

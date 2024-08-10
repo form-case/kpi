@@ -69,7 +69,7 @@ class KoboMatrix extends React.Component {
 
   generateDefault() {
     // TODO: find a better way to do this
-    // See: https://github.com/kobotoolbox/kpi/issues/3924
+    // See: https://github.com/form-case/kpi/issues/3924
     this.newColumn();
       window.setTimeout(() => {
         this.newColumn();

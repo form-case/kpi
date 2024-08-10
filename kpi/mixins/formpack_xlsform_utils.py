@@ -185,7 +185,7 @@ class FormpackXLSFormUtilsMixin:
         # The form builder only shows the first language, so make sure the
         # default language is always at the top of the translations list. The
         # new translations UI, on the other hand, shows all languages:
-        # https://github.com/kobotoolbox/kpi/issues/1273
+        # https://github.com/form-case/kpi/issues/1273
         try:
             default_translation_name = content['settings']['default_language']
         except KeyError:

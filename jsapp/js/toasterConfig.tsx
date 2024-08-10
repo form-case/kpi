@@ -6,7 +6,7 @@ export default function ToasterConfig() {
   return (
     <Toaster
       toastOptions={{
-        // TODO: get colours from a single file: https://github.com/kobotoolbox/kobo-common/issues/1
+        // TODO: get colours from a single file: https://github.com/form-case/kobo-common/issues/1
         style: {
           borderRadius: '6px',
           padding: '16px',

@@ -67,7 +67,7 @@ function OverLimitModal(props: OverLimitModalProps) {
               </a>{' '}
               {'as soon as possible or ' /* tone down the language for now */}
               <a
-                href='https://www.kobotoolbox.org/contact/'
+                href='https://www.form-case.org/contact/'
                 target='_blank'
                 className={styles.link}
               >

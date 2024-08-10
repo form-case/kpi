@@ -109,7 +109,7 @@ class ExtendedUserAdmin(AdvancedSearchMixin, UserAdmin):
     """
     Deleting users used to a two-step process since KPI and KoBoCAT
     shared the same database, but it's not the case anymore.
-    See https://github.com/kobotoolbox/kobocat/issues/92#issuecomment-158219885
+    See https://github.com/form-case/kobocat/issues/92#issuecomment-158219885
 
     It still implies to delete records in both databases. If users are
     deleted in KPI database but not in KoboCAT database, they will receive a

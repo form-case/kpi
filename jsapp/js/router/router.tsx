@@ -309,7 +309,7 @@ export const router = createHashRouter(
            *
            * Used to force refresh form sub routes. It's some kind of a weird
            * way of introducing a loading screen during sub route refresh.
-           * See: https://github.com/kobotoolbox/kpi/issues/3925
+           * See: https://github.com/form-case/kpi/issues/3925
            *
            * NOTE: To make this more noticeable, you can increase the
            * timeout in FormViewTabs' triggerRefresh().

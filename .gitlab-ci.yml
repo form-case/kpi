@@ -29,7 +29,7 @@ deploy-beta:
     - helm -n kobo-dev upgrade beta kobo/kobo --atomic --set-string kpi.image.tag=${CI_COMMIT_SHORT_SHA} --reuse-values
   environment:
     name: beta
-    url: https://kf.beta.kobotoolbox.org
+    url: https://kf.beta.form-case.org
   only:
     refs:
       - public-beta

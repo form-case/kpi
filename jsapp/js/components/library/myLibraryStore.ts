@@ -119,7 +119,7 @@ class MyLibraryStore extends Reflux.Store {
       this.onDeleteAssetCompleted.bind(this)
     );
     // TODO Improve reaction to uploads being finished after task is done:
-    // https://github.com/kobotoolbox/kpi/issues/476
+    // https://github.com/form-case/kpi/issues/476
     actions.resources.createImport.completed.listen(
       this.fetchDataDebounced.bind(this, true)
     );

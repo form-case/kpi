@@ -49,7 +49,7 @@ const OverLimitBanner = (props: OverLimitBannerProps) => {
         {props.warning && (
           <>
             <a
-              href={'https://www.kobotoolbox.org/pricing/'}
+              href={'https://www.form-case.org/pricing/'}
               className={styles.bannerLink}
             >
               {t('Learn more')}

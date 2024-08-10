@@ -2,10 +2,10 @@
 # https://github.com/bndr/pipreqs is a handy utility, too.
 
 # formpack
--e git+https://github.com/kobotoolbox/formpack.git@451df4cd2a0d614be69a3b3309259c67369f7efb#egg=formpack
+-e git+https://github.com/form-case/formpack.git@451df4cd2a0d614be69a3b3309259c67369f7efb#egg=formpack
 
 # service-account
--e git+https://github.com/kobotoolbox/kobo-service-account.git@8ee76730106ff8dc0ee2539c8e6a567aea4ed9ee#egg=kobo-service-account
+-e git+https://github.com/form-case/kobo-service-account.git@8ee76730106ff8dc0ee2539c8e6a567aea4ed9ee#egg=kobo-service-account
 
 # More up-to-date version of django-digest than PyPI seems to have.
 # Also, python-digest is an unlisted dependency thereof.
@@ -13,7 +13,7 @@
 -e git+https://github.com/dimagi/django-digest@419f7306443f9a800b07d832b2cc147941062d59#egg=django_digest
 
 # ssrf protect
--e git+https://github.com/kobotoolbox/ssrf-protect@9b97d3f0fd8f737a38dd7a6b64efeffc03ab3cdd#egg=ssrf_protect
+-e git+https://github.com/form-case/ssrf-protect@9b97d3f0fd8f737a38dd7a6b64efeffc03ab3cdd#egg=ssrf_protect
 
 # django-dont-vary-on
 # using a fork for django > 1.1.0 compatibility

@@ -287,7 +287,7 @@ export class FormMap extends React.Component {
 
   requestData(map, nextViewBy = '') {
     // TODO: support area / line geodata questions
-    // See: https://github.com/kobotoolbox/kpi/issues/3913
+    // See: https://github.com/form-case/kpi/issues/3913
     let selectedQuestion = this.props.asset.map_styles.selectedQuestion || null;
 
     this.props.asset.content.survey.forEach(function (row) {
@@ -616,7 +616,7 @@ export class FormMap extends React.Component {
     });
   }
   filterMap(evt) {
-    // roundabout solution for https://github.com/kobotoolbox/kpi/issues/1678
+    // roundabout solution for https://github.com/form-case/kpi/issues/1678
     //
     // when blurEventDisabled prop is set, no blur event takes place in PopoverMenu
     // hence, dropdown stays visible when invoking other click events (like filterLanguage below)

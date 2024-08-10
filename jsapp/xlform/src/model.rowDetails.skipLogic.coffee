@@ -1,6 +1,6 @@
 ###
 painstakingly reverse-compiled from this file in dkobo:
-https://github.com/kobotoolbox/dkobo/blob/225ca1/dkobo/koboform/static/js/xlform/rowDetailsSkipLogic.model.rowDetails.skipLogic.coffee
+https://github.com/form-case/dkobo/blob/225ca1/dkobo/koboform/static/js/xlform/rowDetailsSkipLogic.model.rowDetails.skipLogic.coffee
 ###
 
 _ = require 'underscore'

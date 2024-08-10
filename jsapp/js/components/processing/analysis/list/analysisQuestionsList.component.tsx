@@ -40,7 +40,7 @@ export default function AnalysisQuestionsList() {
           }
 
           // TODO: we temporarily hide Keyword Search from the UI until
-          // https://github.com/kobotoolbox/kpi/issues/4594 is done
+          // https://github.com/form-case/kpi/issues/4594 is done
           if (question.type === 'qual_auto_keyword_count') {
             return null;
           }

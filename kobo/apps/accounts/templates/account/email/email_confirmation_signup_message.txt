@@ -22,9 +22,9 @@
 {% if content.section_two or content.section_two == '' %}
 {% convert_placeholders content.section_two activate_url user %}
 {% else %}
-{% blocktrans %}For help getting started, check out the KoboToolbox user documentation: https://support.kobotoolbox.com {% endblocktrans %}
+{% blocktrans %}For help getting started, check out the KoboToolbox user documentation: https://support.form-case.com {% endblocktrans %}
 
-{% blocktrans %}You can also join the KoboToolbox community forum to ask questions, share solutions, and chat with thousands of users: https://community.kobotoolbox.org{% endblocktrans %}
+{% blocktrans %}You can also join the KoboToolbox community forum to ask questions, share solutions, and chat with thousands of users: https://community.form-case.org{% endblocktrans %}
 
 {% blocktrans %}Best,{% endblocktrans %}
 KoboToolbox

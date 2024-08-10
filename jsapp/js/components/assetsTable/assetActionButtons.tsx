@@ -2,8 +2,8 @@
  * This is intended to be displayed in multiple places:
  * - library asset landing page
  * - library listing row
- * - project landing page (see: https://github.com/kobotoolbox/kpi/issues/2758)
- * - projects listing row (see: https://github.com/kobotoolbox/kpi/issues/2758)
+ * - project landing page (see: https://github.com/form-case/kpi/issues/2758)
+ * - projects listing row (see: https://github.com/form-case/kpi/issues/2758)
  */
 
 import React from 'react';

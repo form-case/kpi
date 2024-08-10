@@ -385,7 +385,7 @@ export interface SurveyChoice {
 
 interface AssetLockingProfileDefinition {
   name: string;
-  restrictions: string[]; // TODO make sure it's a type not a string when, see: https://github.com/kobotoolbox/kpi/issues/3904
+  restrictions: string[]; // TODO make sure it's a type not a string when, see: https://github.com/form-case/kpi/issues/3904
 }
 
 export interface AssetContentSettings {
@@ -672,7 +672,7 @@ export interface AssetResponse extends AssetRequestObject {
 
   // TODO: think about creating a new interface for asset that is being extended
   // on frontend.
-  // See: https://github.com/kobotoolbox/kpi/issues/3905
+  // See: https://github.com/form-case/kpi/issues/3905
   // Here are some properties we add to the response:
   tags?: string[];
   unparsed__settings?: AssetContentSettings;
@@ -1362,7 +1362,7 @@ export const dataInterface: DataInterface = {
       data: {
         ordering: '-date_created',
         // TODO: handle pagination of this in future, for now we get "all"
-        // see: https://github.com/kobotoolbox/kpi/issues/3906
+        // see: https://github.com/form-case/kpi/issues/3906
         limit: 9999,
       },
     });
@@ -1449,7 +1449,7 @@ export const dataInterface: DataInterface = {
   },
 
   searchAssets(searchData: AssetsRequestData): JQuery.jqXHR<AssetsResponse> {
-    // TODO https://github.com/kobotoolbox/kpi/issues/1983
+    // TODO https://github.com/form-case/kpi/issues/1983
     // force set limit to get hacky "all" assets
     searchData.limit = 200;
     return $.ajax({

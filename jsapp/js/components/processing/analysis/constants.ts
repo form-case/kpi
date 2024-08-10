@@ -230,7 +230,7 @@ export const ANALYSIS_QUESTION_TYPES: AnalysisQuestionTypeDefinition[] = [
     icon: 'qt-note',
   },
   // TODO: we temporarily hide Keyword Search from the UI until
-  // https://github.com/kobotoolbox/kpi/issues/4594 is done
+  // https://github.com/form-case/kpi/issues/4594 is done
   // {
   //   type: 'qual_auto_keyword_count',
   //   label: t('Keyword search'),

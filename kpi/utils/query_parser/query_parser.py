@@ -309,8 +309,8 @@ def parse(
         # If *no* search term is at least `min_search_characters` long and no
         # search term specifies a field explicitly, abort the search to avoid
         # placing an undue strain on the server. See
-        # https://github.com/kobotoolbox/kpi/pull/2830 and
-        # https://github.com/kobotoolbox/kpi/issues/3483
+        # https://github.com/form-case/kpi/pull/2830 and
+        # https://github.com/form-case/kpi/issues/3483
         raise SearchQueryTooShortException()
 
     return q_object

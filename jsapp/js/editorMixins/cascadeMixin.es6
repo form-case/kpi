@@ -1,5 +1,5 @@
 // TODO: this shouldn't be a mixin (wtf)
-// See: https://github.com/kobotoolbox/kpi/issues/3923
+// See: https://github.com/form-case/kpi/issues/3923
 
 import React from 'react';
 import ReactDOM from 'react-dom';

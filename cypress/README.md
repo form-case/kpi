@@ -16,7 +16,7 @@ kpi$ DJANGO_SETTINGS_MODULE=kobo.settings.cypress  \
        --noinput
 ```
 
-If you're using [kobo-install](https//github.com/kobotoolbox/kobo-install):
+If you're using [kobo-install](https//github.com/form-case/kobo-install):
 
 ```console
 # Enter a bash session in the kpi container

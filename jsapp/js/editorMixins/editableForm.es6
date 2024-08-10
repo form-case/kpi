@@ -917,7 +917,7 @@ export default Object.assign({
         {
           /*
             TODO: Try to fix quirks that arise from this <Prompt/> usage
-            Issue: https://github.com/kobotoolbox/kpi/issues/4154
+            Issue: https://github.com/form-case/kpi/issues/4154
           */
           this.state.preventNavigatingOut && <Prompt/>
         }

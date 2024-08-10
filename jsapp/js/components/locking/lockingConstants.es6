@@ -3,7 +3,7 @@
  * arrays of restrictions below.
  *
  * NOTE: this list should match a list from:
- * https://github.com/kobotoolbox/formpack/blob/master/src/formpack/constants.py
+ * https://github.com/form-case/formpack/blob/master/src/formpack/constants.py
  */
 export const LOCKING_RESTRICTIONS = Object.freeze({
   // question related

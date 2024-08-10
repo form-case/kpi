@@ -220,7 +220,7 @@ def _sync_form_content(asset, xform, changes):
             changes.append('UPDATE')
     else:
         # KC's `date_modified` is nearly useless (see
-        # https://github.com/kobotoolbox/kpi/issues/661#issuecomment-218073765).
+        # https://github.com/form-case/kpi/issues/661#issuecomment-218073765).
         # Still, in cases where KPI does not yet know the hash, comparing
         # timestamps can sometimes avoid creating duplicate asset versions
         time_diff = xform.date_modified - asset.date_modified

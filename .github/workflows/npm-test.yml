@@ -45,5 +45,5 @@ jobs:
         # This step takes less than 1 minute if it succeeds, but will hang for
         # 6 hours if it fails with 'No inspectable targets'
         # Timeout early to make it easier to manually re-run jobs.
-        # Tracking issue: https://github.com/kobotoolbox/kpi/issues/4337
+        # Tracking issue: https://github.com/form-case/kpi/issues/4337
         timeout-minutes: 1

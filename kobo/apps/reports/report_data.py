@@ -22,7 +22,7 @@ def build_formpack(asset, submission_stream=None, use_all_form_versions=True):
     are assumed to have been collected with that version of the form.
     """
 
-    # Cope with kobotoolbox/formpack#322, which wrote invalid content into the
+    # Cope with form-case/formpack#322, which wrote invalid content into the
     # database
     repair_file_column_content_and_save(asset)
 
@@ -43,7 +43,7 @@ def build_formpack(asset, submission_stream=None, use_all_form_versions=True):
         # FIXME: should FormPack validation errors have their own
         # exception class?
         except TypeError as e:
-            # https://github.com/kobotoolbox/kpi/issues/1361
+            # https://github.com/form-case/kpi/issues/1361
             logging.error(
                 f'Failed to get formpack schema for version: {repr(e)}',
                 exc_info=True
@@ -69,7 +69,7 @@ def build_formpack(asset, submission_stream=None, use_all_form_versions=True):
 
     # A submission often contains many version keys, e.g. `__version__`,
     # `_version_`, `_version__001`, `_version__002`, each with a different
-    # version id (see https://github.com/kobotoolbox/kpi/issues/1465). To cope,
+    # version id (see https://github.com/form-case/kpi/issues/1465). To cope,
     # assume that the newest version of this asset whose id appears in the
     # submission is the proper one to use
     def _infer_version_id(submission):

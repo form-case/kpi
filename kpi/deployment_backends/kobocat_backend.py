@@ -884,7 +884,7 @@ class KobocatDeploymentBackend(BaseDeploymentBackend):
         # This method is here instead of `ObjectPermissionMixin` because
         # it's specific to KoBoCat as backend.
 
-        # TODO: Remove this method after kobotoolbox/kobocat#642
+        # TODO: Remove this method after form-case/kobocat#642
 
         filters = {
             'permission__codename': PERM_FROM_KC_ONLY,
